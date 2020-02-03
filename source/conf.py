@@ -17,12 +17,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "SciWorks 2020 Packaging Tutorial"
+project = "SciWork 2020 Packaging Tutorial"
 copyright = "2020, Tzu-ping Chung"
 author = "Tzu-ping Chung"
 
 
 # -- General configuration ---------------------------------------------------
+
+master_doc = "index"
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom

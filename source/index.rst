@@ -1,5 +1,5 @@
 ================================
-SciWorks 2020 Packaging Tutorial
+SciWork 2020 Packaging Tutorial
 ================================
 
 This tutorial walks you through how to package a simple Python project. It will
