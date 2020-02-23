@@ -11,6 +11,8 @@ to build the package, and how to upload it to a package index (such as PyPI).
    :caption: Contents:
 
    prerequisites
+   project
+   distribute
 
 
 Indices and tables

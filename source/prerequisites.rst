@@ -4,7 +4,7 @@ Set up a Development Environment
 
 Please have the followings ready before you start:
 
-* Any Python installation with either virtualenv or venv available.
+* Any Python installation with pip available.
 * Conda from either Miniconda_ or Anaconda.
 
 .. _Miniconda: https://conda.io/en/latest/miniconda.html
@@ -13,13 +13,36 @@ Please arrive early to the tutorial if you are not sure whether you have all
 things set up. The lecturer will help get things ready.
 
 
+Install development tools
+=========================
+
+Run the following command to install/update the needed development tools.
+
+Anaconda::
+
+    python3 -m pip install --upgrade setuptools wheel twine
+
+On Windows::
+
+    py -3 -m pip install --upgrade pip setuptools wheel twine
+
+On Mac or Linux::
+
+    python3 -m pip install --upgrade pip setuptools wheel twine
+
+.. note::
+
+    For brevity, we will use ``python3`` from here on. Please substitute it to
+    ``py -3`` yourself as needed.
+
+
 Put code in a directory
 =======================
 
-This tutorial uses a simple project named ``sampleproject``. The complete source
-is available at https://github.com/pypa/sampleproject.git. We will be creating
-the project from scratch, but you can use the repository as a reference if
-anything is not working.
+This tutorial uses a simple project named ``sampleproject``. The complete
+source is available at https://github.com/pypa/sampleproject.git. We will be
+creating the project from scratch, but you can use the repository as a
+reference if anything is not working.
 
 If you already have a project that you want to package up, *and feel confident*
 to do so, simply replace the ``sample`` directory with the one you want to use,
@@ -30,3 +53,7 @@ We start with the following file structure::
     sampleproject/
         sample/
             __init__.py
+
+All of the commands in this tutorial will need to be run within the top-level
+directory just created. Be sure to ``cd sampleproject`` into the project
+directory to run following commands successfully.
