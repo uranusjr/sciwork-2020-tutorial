@@ -54,3 +54,6 @@ Enter your username and password when prompted.
 
 Once the command finished successfully, your package should be viewable on
 Test PyPI at e.g. https://test.pypi.org/project/sampleproject-YOUR-USERNAME.
+
+Congratulations, you have successfully packaged and distributed a Python
+project!

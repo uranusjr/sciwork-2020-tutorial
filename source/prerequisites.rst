@@ -20,7 +20,7 @@ Run the following command to install/update the needed development tools.
 
 Anaconda::
 
-    python3 -m pip install --upgrade setuptools wheel twine
+    conda install conda-build
 
 On Windows::
 
@@ -32,8 +32,9 @@ On Mac or Linux::
 
 .. note::
 
-    For brevity, we will use ``python3`` from here on. Please substitute it to
-    ``py -3`` yourself as needed.
+    For brevity, we will use ``py -3`` from here on. Please substitute it to
+    ``python3`` yourself as needed, if you used ``python3`` for the above
+    command.
 
 
 .. _test-pypi-register:
