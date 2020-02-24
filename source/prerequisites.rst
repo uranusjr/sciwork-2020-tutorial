@@ -36,6 +36,17 @@ On Mac or Linux::
     ``py -3`` yourself as needed.
 
 
+.. _test-pypi-register:
+
+Register an account on Test PyPI
+================================
+
+Register an account at https://test.pypi.org/account/register/.
+
+Follow the steps to complete registration. You will also need to
+**verify your email address** to be able to upload packages.
+
+
 Put code in a directory
 =======================
 
