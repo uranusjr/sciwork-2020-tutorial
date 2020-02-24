@@ -37,7 +37,7 @@ will be uploading to *Test PyPI*. This is a separate instance of the package
 index, intended for testing and experimentation. This is great for things like
 this tutorial, where we don't necessarily want to upload "for real."
 
-Make sure to test-pypi-register_ before you continue with the tutorial.
+Make sure to :ref:`test-pypi-register` before you continue with the tutorial.
 
 .. note::
 
