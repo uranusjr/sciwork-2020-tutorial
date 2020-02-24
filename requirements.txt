@@ -1,2 +1,3 @@
+pygments-markdown-lexer
 sphinx
 sphinx-rtd-theme
