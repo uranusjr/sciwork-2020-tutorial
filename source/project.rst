@@ -5,7 +5,7 @@ Describe the project
 Create some additional files in the project root directory, alongside the
 ``sample`` directory. You should end up with the following structure::
 
-    sampleproject/
+    sampleproject-YOUR-USERNAME/
         sample/
             __init__.py
         pyproject.toml
@@ -57,7 +57,7 @@ Creating setup.cfg
 This file tells Setuptools about the project (such as the name and version), as
 well as which code files to include.
 
-Remember to change the ``name`` value to include your username (for example,
+Change the ``name`` value to include your username (for example,
 ``sampleproject-uranusjr``), to make the proejct name unique, and does not
 conflict with other people when you upload it. Or you can use any name you like
 (as long as it is not already registered---search on the PyPI_ to find out).
@@ -70,7 +70,7 @@ conflict with other people when you upload it. Or you can use any name you like
     name = sampleproject-YOUR-USERNAME
     version = 0.0.1
     author = Example Author
-    author_email = "author@example.com
+    author_email = author@example.com
     description = A small example package
     long_description = file: README.md
     long_description_content_type = text/markdown

@@ -18,8 +18,12 @@
 # -- Project information -----------------------------------------------------
 
 project = "SciWork 2020 Packaging Tutorial"
+
 copyright = "2020, Tzu-ping Chung"
+
 author = "Tzu-ping Chung"
+
+highlight_language = "none"
 
 
 # -- General configuration ---------------------------------------------------

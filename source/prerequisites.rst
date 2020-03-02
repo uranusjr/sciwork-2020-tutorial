@@ -69,3 +69,19 @@ We start with the following file structure::
 All of the commands in this tutorial will need to be run within the top-level
 directory just created. Be sure to ``cd sampleproject`` into the project
 directory to run following commands successfully.
+
+.. note::
+
+    Put some code in ``__init__.py`` so it is easy to test. For example:
+
+    .. code:: python
+
+        def greet():
+            print("Hello!")
+
+    And test it like this:
+
+    .. code:: console
+
+        $ py -3 -c "import sample; sample.greet()"
+        Hello!
