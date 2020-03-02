@@ -101,7 +101,7 @@ That's it! Now people can install your package directly::
 
     py -3 -m pip install sampleproject-YOUR-USERNAME
 
-Some caveats though::
+There are some caveats though:
 
 * Files uploaded to PyPI are immutable. More especifically, although deletion
   is possible, your cannot *re-upload* a file. So be extra careful before you
