@@ -67,8 +67,8 @@ Congratulations, you have successfully packaged and distributed a Python
 project!
 
 
-Test the package
-================
+Test package installation
+=========================
 
 The package uploaded to Test PyPI can be installed with pip, like you would any
 other package, by explicitly specifying the "index" to install from::

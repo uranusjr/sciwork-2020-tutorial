@@ -108,7 +108,7 @@ Linux and macOS. It is highly recommended you provide *both* if possible
 Building the package
 ====================
 
-In the project root (where ``meta.yaml`` is), use ``conda-build`` to generate a
+In the project root (where ``meta.yaml`` is), use ``conda build`` to generate a
 Conda package::
 
     conda build .
@@ -133,8 +133,8 @@ Save this path somewhere; it will be useful in the following (optional)
 sections.
 
 
-Testing the package
-===================
+Testing the Conda package
+=========================
 
 You can try installing the newly built package into your Conda environment::
 
