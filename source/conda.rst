@@ -14,8 +14,8 @@ Put them in the project root (alongside with other metadata files such as
 ``README.md``, ``pyproject.toml``).
 
 
-Creating ``meta.yaml``
-======================
+Creating meta.yaml
+==================
 
 This is used to describe the package.
 
